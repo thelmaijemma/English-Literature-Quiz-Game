@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header role="heading">
+    <h1>The English Literature Quad Game</h1>
+      <h2> Explore New and Old Titles</h2>
+      <button id='start'>Let's Go</button>
+  </header>
+  <main>
+    <section class='box-images-1 js-box-images-1'>
+      <p class='quote-question'>Which Book is this Quote from?</p>
+      <p class='qoute'>"It was a bright cold day in April, and the clocks were striking thirteen."</p>
+      <div class='answer-box-images js-answerbox'>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-28-1556673330-30D6-column-width-inline.jpg' alt='Roald Dahl The Witches Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-7-1556673312-SRfw-column-width-inline.png' alt='1984 by George book cover '/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-13-1556673318-k2C3-column-width-inline.jpg' alt='American Psycho Bret Easton Ellis Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-42-1556673311-rjTi-column-width-inline.jpg' alt='James Ellroy L.A. Confidential Cover'/>
+      </div>
+      <p class='q-right'>That's right. <br> Fun Fact. An Italian translation exists in which the clocks strike "uno" instead of thirteen. 
+        <button class="next-set">Next Set</button>
+      <p class='q-wrong'>Nope. It's <i>1984</i>. <br> Fun Fact. An Italian translation exists in which the clocks strike "uno" instead of thirteen. 
+        <button class="next-set">Next Set</button>
+      </p>
+    </section>
+    <section class='box-quotes-1 js-box-quotes-1'>
+      <p class='pick-quote'>Which Quote comes from this Book?</p>
+      <img class="book-question" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-24-1556673327-lASa-column-width-inline.jpg' alt='Zora Neale Hurston Their Eyes Were Watching God Cover '/>
+      <div class="answer-box-quotes js-quotebox">
+        <div class='quote-1'><button id='choice1'>"She had waited all her life for something, and it had killed her when it found her."</button><p class='reveal'>Correct.</p>
+        </div>
+        <div class='qoute-2'><button id='choice2'>"It’s no use going back to yesterday, because I was a different person then."</button><p class="reveal">Lewis Carroll, <i>Alice's Adventures in Wonderland</i>.</p>
+        </div>
+        <div class='quote-3'><button id='choice3'>"It was the day my grandmother exploded"</button><p class='reveal'>Iain Banks, <i>The Crow Road</i>.</p>
+        </div>
+        <div class="quote-4"><button id='choice4'>“You’re just in time for a little smackerel of something.”</button><p class='reveal'>A.A. Milne, <i>Winnie The Pooh</i>.</p>
+        </div>
+        <p class='fun-fact'>Fun Fact: Zora Neale Hurston and her neighbor Langston Hughes decided to write a play together.</p>
+      </div>
+      <button class="next-set">Next Set</button>
+    </section>
+    <section class='box-images-2 js-box-images-2'>
+      <p class='quote-question'>Which Book is this Quote from?</p>
+      <p class='qoute'>“I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.”</p>
+      <div class='answer-box-images js-answerbox'>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-11-1556673316-ZR8j-column-width-inline.jpg' alt='Charlotte Brontë Jane Eyre book cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-57-1556673334-LDHt-column-width-inline.jpg' alt='Breakfast at Tiffany;s Truman Capote Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-62-1556673333-erK5-column-width-inline.jpg' alt='Toni Morrison Beloved Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-54-1556673331-lNyr-column-width-inline.jpg' alt='Patricia Highsmith The Price of Salt Cover'/>
+      </div>
+      <p class='q-right'>That's right. <br> Fun Fact. Charlotte Brontë attended Clergy Daughters' School at Cowan Bridge, Lancashire, the inspiration for Jane's school.
+        <button class="next-set">Next Set</button>
+      </p>
+      <p class='q-wrong'>Nope. It's <i>Jane Eyre</i>. <br> Fun Fact. Charlotte Brontë attended Clergy Daughters' School at Cowan Bridge, Lancashire, the inspiration for Jane's school.
+        <button class="next-set">Next Set</button>
+      </p>
+    </section>
+    <section class='box-quotes-2 js-box-quotes-2'>
+      <p class='pick-quote'>Which Quote comes from this Book?</p>
+      <img class="book-question" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-8-1556673314-xmsG-column-width-inline.jpg' alt='Margaret Atwood The Handmaids Tale Book Cover'/>
+      <div class="answer-box-quotes js-quotebox">
+        <div class='quote-1'><button id='choice1'>"Most men and women will grow up to love their servitude and will never dream of revolution."</button><p class='reveal'>Aldous Huxley, <i>Brave New World</i></p>
+        </div>
+        <div class='qoute-2'><button id='choice2'>"We were the people who were not in the papers. We lived in the blank white spaces at the edges of print. It gave us more freedom. We lived in the gaps between the stories."</button><p class="reveal">Correct. </p>
+        </div>
+        <div class='quote-3'><button id='choice3'>“I believe there are monsters born in the world to human parents.”</button><p class='reveal'>John Steinbeck, <i>East of Eden</i></p>
+        </div>
+        <div class="quote-4"><button id='choice4'>“By the time we arrived, as evening was approaching, I felt as sore as a rock must feel when the waterfall has pounded on it all day long.”</button><p class='reveal'>Arthur Golden, <i>Memoirs of a Geisha</i></p>
+        </div>
+        <p class='fun-fact'> Fun Fact. In 1986, Atwood described her book as "a study of power, and how it operates and how it deforms or shapes the people who are living within that kind of regime."</p>
+      </div>
+      <button class="next-set">Next Set</button>
+    </section>
+
+    <section class='box-images-3 js-box-images-3'>
+      <p class='quote-question'>Which Book is this Quote from?</p>
+      <p class='qoute'>“There is no greater agony than bearing an untold story inside you.”</p>
+      <div class='answer-box-images js-answerbox'>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-61-1556673337-r8VJ-column-width-inline.jpg' alt='Herman Melville Moby Dick Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-47-1556673319-qekU-column-width-inline.jpg' alt='Miguel de Cervantes Saavedra Don Quixote Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://www.shortlist.com/media/images/2019/05/the-40-most-powerful-literary-quotes-58-1556673335-H5sM-column-width-inline.jpeg' alt='William Faulkner The Sound And The Fury Book Cover'/>
+        <img class="book-answer" width='200px' height="300px" src='https://upload.wikimedia.org/wikipedia/en/d/d0/Caged_Bird_cover.jpg' alt='Maya Angelou I know Why the Caged Bird Sings Book Cover'/>
+      </div>
+      <p class='q-right'>That's right. <br> Fun Fact. <i>I Know Why the Caged Bird Sings</i> is frequently removed from school reading lists for sexual content, language, and drug use.
+      </p>
+      <p class='q-wrong'>Nope. It's <i>I Know Why the Caged Bird Sings</i>. <br> Fun Fact. <i>I Know Why the Caged Bird Sings</i> is frequently removed from school reading lists for sexual content, language, and drug use.
+      </p>
+      <p id="final tally"></p>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
